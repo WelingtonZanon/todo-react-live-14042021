@@ -67,14 +67,16 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0px 15px;
+  cursor: pointer;
 }
 
 .task button {
   border: none;
-  width: 24px;
-  height: 24px;
+  padding: 0.5rem 0.625rem;
   cursor: pointer;
   transition: all 0.4s;
+  margin-left: 4px;
+  border-radius: 00.25rem;
 }
 
 .task button:hover {
